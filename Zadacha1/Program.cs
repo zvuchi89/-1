@@ -1,0 +1,14 @@
+﻿Console.Write("Введите первое число : ");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число : ");
+int i = Convert.ToInt32(Console.ReadLine());
+int max = n; 
+int min = n; 
+if (n > max) max = n;
+if (i > max) max = i; 
+    Console.Write("max = ");
+    Console.WriteLine(max);
+if( n < min) min = n;
+if( i < min) min = i;
+    Console.Write("min = ");
+    Console.WriteLine(min);
